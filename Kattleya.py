@@ -13,7 +13,8 @@ data = {"CONSUMER_KEY": None,
 
 
 def main():
-    """This is where the logic message for the tweet is forged
+    """This is where the message for the tweet is forged
+as well as the tweet itself
     """
     try:
         with open("json.config", "r") as file:

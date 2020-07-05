@@ -10,7 +10,7 @@ def dateFinder():
     """This function retrieves the date of release posted on the Steam webpage
 
     Returns:
-        list: Month, day and stimated time 'till release
+        list: day, month and stimated time 'till release
     """
     url = 'https://store.steampowered.com/app/1091500/Cyberpunk_2077/'
 
