@@ -7,7 +7,7 @@
 #released!\n'{}' - @Steam".format(delta, message)
 
 def TweetMaker(d, m, da, me):
-    """This will pick one from 5 different tweets
+    """This will pick one from 4 different tweets
     """
     C, S, T = "#Cyberpunk2077", "@Steam", "There are still"
     CU = "current official date of release"
