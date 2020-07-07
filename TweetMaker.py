@@ -3,9 +3,6 @@
 """
 
 
-#tweet = "There are still {} before #Cyberpunk2077 is \
-#released!\n'{}' - @Steam".format(delta, message)
-
 def TweetMaker(d, m, da, me):
     """This will pick one from 4 different tweets
     """
