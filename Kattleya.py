@@ -2,6 +2,7 @@
 """This module contains the formed message and the twitting logic
 """
 from DateScrap import dateFinder
+from TweetMaker import TweetMaker
 from datetime import datetime, date
 import tweepy
 import json
@@ -34,8 +35,8 @@ as well as the tweet itself
     delta = str(delta).split(",")
     delta = delta[0]
 
-    tweet = "There are still {} before #Cyberpunk2077 is \
-released!\n'{}' - @Steam".format(delta, message)
+    tweet = TweetMaker(delta, month, day, message)
+
     api.update_status(tweet)
     print("Success!")
 
